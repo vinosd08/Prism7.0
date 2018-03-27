@@ -9,7 +9,7 @@ namespace ModuleA
     {
         IRegionManager _regionManager;
 
-        public ModuleAModule(RegionManager regionManager)
+        public ModuleAModule(IRegionManager regionManager)
         {
             _regionManager = regionManager;
         }
